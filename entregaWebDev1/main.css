@@ -50,8 +50,8 @@ li{
 
 }
 .botao{
-    color: rgb(50, 46, 46);
-    font-family: sans-serif;
+    
+    font-family: Salesforce Sans,Arial,sans-serif;
     font-size: 17px;
     line-height: 32px;
     float: left;
@@ -62,9 +62,13 @@ li{
 .botao:hover{
     color: rgb(48, 48, 104)
 }
-    a{
-        text-decoration: none;
-        color:rgb(50, 46, 46)
+a{
+    text-decoration: none;
+    color:rgb(50, 46, 46);
+}
+a:hover {
+
+    color: #0176d3;
     }
 
 
