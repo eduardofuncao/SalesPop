@@ -1,2 +1,2 @@
 # SalesPop
-Aplicação de acessibilidade para o portal da SalesForce
+Aplicação de acessibilidade para o portal da SalesForce.
