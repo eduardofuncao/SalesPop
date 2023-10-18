@@ -8,7 +8,8 @@ Menu de funcionalidades para o site da SalesForce
 Funcionalidades implementadas:
 - Popup de aceite para cookies
 - Formulário 
-- etc.
+- Paletas de Cores adaptativas.
+- Formulário com tipos de Daltonismo e suas respectivas paletas de cor.
 '''
 Cor_principal = ("vermelho")
 Cor_Secundarias = ("verde")
@@ -16,6 +17,8 @@ Acessibilidade = None
 d = int
 f6 = str
 nome = str
+pop = str
+
 
 stop = False
 while not stop:
@@ -30,10 +33,23 @@ while not stop:
     # seleção do usuário
     sel = int(input("Digite o código da funcionalidade para acessar as suas funções: "))
     if sel == 1:
-        print("funcionalidade 1")
-    elif sel == 2:
-        print("funcionalidade 2")
+        print("funcionalidade 1, Formulario, preencha os campos a seguir.")
+        nome = input("Digite o seu Nome: ")
+        sobrenome = input("Digite o seu Sobrenome: ")
+        cargo = input("Qual o seu Cargo: ")
+        email = input("Email corporativo: ")
+        tele = int(input("Seu telefone: "))
+        Empresa = input("Sua empresa: ")
+        TamEmpresa = int(input("Tamanho da Empresa(Num de funcionários): "))
+        print("Cadastro feito com sucesso!\nObrigado pela preferência em breve um agente SalesForce entrará em contato!")
 
+
+
+    elif sel == 2:
+        print("funcionalidade 2, Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao utilizar nossos serviços, você está ciente dessa funcionalidade. ")
+        pop = input("Aceita a utilização de cookies? Aceitar(S) Recusar(N): ")
+    
+    
     elif sel == 3:
         print(f"funcionalidade 3: \n{Cor_principal} \n{Cor_Secundarias}")
 
@@ -43,17 +59,17 @@ while not stop:
         if f6.upper() == "S":
             d = int(input("Digite 1 para Protanopia, 2 para  Deuteranopia, 3 para Tritanopia."))
             if d == 1:
-                Cor_principal = "#58550B"
-                Cor_Secundarias = "#EACA00"
+                Cor_principal = "verde-oliva escuro "
+                Cor_Secundarias = "amarelo vibrante"
 
                 print("Cores atualizadas para Protanopia.\n Cor primaria: #58550B \n Cor secundaria: #EACA00")
             elif d == 2:
-                Cor_principal = "#AF9620"
-                Cor_Secundarias = "#CAB200"
+                Cor_principal = "amarelo-ouro"
+                Cor_Secundarias = "amarelo escuro"
                 print("Cores atualizadas para Deuteranopia. \n Cor primaria: #AF9620 \n Cor secundaria: #CAB200")
             elif d == 3:
-                Cor_principal = "#FF005A"
-                Cor_Secundarias = "#00EAFF"
+                Cor_principal = "rosa brilhante"
+                Cor_Secundarias = "ciano brilhante"
                 print("Core atualizadas para Tritaopia. \n Cor primaria: #FF005A \n Cor secundaria: #00EAFF")
         
 
@@ -65,9 +81,10 @@ while not stop:
     
 
     # checa se usuário quer continuar
-    if f6.upper == "N":
-        sel = input("Você deseja testar uma outra funcionalidade do programa? [S]im ou [N]ão: ")
-        if sel.upper == "N":
-            stop = True
+    if pop.upper == "S":
+        if f6.upper == "N":
+            sel = input("Você deseja testar uma outra funcionalidade do programa? [S]im ou [N]ão: ")
+            if sel.upper == "N":
+                stop = True
 
     
