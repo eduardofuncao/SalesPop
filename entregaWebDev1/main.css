@@ -88,6 +88,25 @@ header{
     margin-left: 100px;
     
 }
+footer{
+    background-color: #479fd9;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-left: -30px;
+    margin-right: auto;
+  
+    
+
+}
+#pe{
+    text-align: center;
+    color: white;
+
+}
 
 
 
