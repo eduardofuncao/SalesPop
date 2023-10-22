@@ -1,0 +1,15 @@
+Funcionalidades que serão implementadas no sprint 2:
+- funcionalidade skip to content
+- possibilidade de deixar todos os links sublinhados
+- modo dislexia: altera fonte espaçamento do texto
+- site responsivo para diferentes dispositivos
+- campo de pesquisa no site
+- usar aria roles e tags de sitaxe html5
+
+Funcionalidades que podem ser implementadas no futuro:
+- modificar tamanho do cursor para facilitar navegação
+- reconhecimento de fala para controlar o site (e pesquisa)
+- leitura de tela com linguagem de sinais
+- tooltips para facilitar experiência do usuário
+- versao do site somente com texto
+
