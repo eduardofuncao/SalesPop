@@ -24,6 +24,9 @@ No código são geradas e populadas instâncias de cada uma das classes, e no pr
 - Campo de pesquisa `usuario.fazPesquisa()`;
 - Integração do live chat para conversa com atendente `usuario.enviaMensagem(), atendente.enviaMensagem() e chat.display()`
 
+### Diagrama de Classes
+![diagramaClasses](classDiagram.jpg)
+
 ## Créditos
 Desenvolvido por 
 > - Artur Lopes Fiorindo 
