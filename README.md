@@ -25,7 +25,7 @@ No código são geradas e populadas instâncias de cada uma das classes, e no pr
 - Integração do live chat para conversa com atendente `usuario.enviaMensagem(), atendente.enviaMensagem() e chat.display()`
 
 ### Diagrama de Classes
-![diagramaClasses](classDiagram.jpg)
+![diagramaClasses](/entregaJava/diagramaClasses.png)
 
 ## Créditos
 Desenvolvido por 
