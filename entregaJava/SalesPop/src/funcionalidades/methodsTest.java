@@ -109,7 +109,7 @@ public class methodsTest {
 	    
 	    // Interação com chat e atendente
 	    System.out.println("Digite algo no chat: ");
-	    String leitura = read.nextLine();
+	    String leitura = read.next();
 	    usuario.enviaMensagem(leitura);
 	    atendente.enviaMensagem("Oiii, aguarde um momento e já vou te responder. Obrigado pelo contato!");
 	    chat.display();

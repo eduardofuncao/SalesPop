@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Usuario {
-	public String id;
-    public String nome;
-    public String email;
-    public String telefone;
-    public String cargo;
-    public String empresa;
+	private String id;
+    private String nome;
+    private String email;
+    private String telefone;
+    private String cargo;
+    private String empresa;
     public FormularioContato formularioContato;
     public Cookie cookie;
     public PreferenciasAcessibilidade preferenciasAcessibilidade;
@@ -18,7 +18,57 @@ public class Usuario {
     public Pagina[] paginas;
     public Atendente atendente;
     
-    public Usuario() {
+    
+    
+    public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+	public String getEmpresa() {
+		return empresa;
+	}
+
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
+	}
+
+	public Usuario() {
 		
 	}
     
@@ -55,7 +105,7 @@ public class Usuario {
     }
 
     public void preencheFormulario() {
-    	System.out.println("Formulário de acessiblidade: ");
+    	System.out.println("Formulário : ");
     	for(int i=1; i<this.formularioContato.campos.length;i++) {
     		Scanner read = new Scanner(System.in);
     		System.out.println(this.formularioContato.campos[i] + ": ");
