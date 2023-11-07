@@ -48,6 +48,8 @@ while not stop:
     elif sel == 2:
         print("funcionalidade 2, Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços. Ao utilizar nossos serviços, você está ciente dessa funcionalidade. ")
         pop = input("Aceita a utilização de cookies? Aceitar(S) Recusar(N): ")
+        while((pop.upper() != "S") and (pop.upper() != "N")):
+            pop = input("Erro, digite S para sim, ou N para não: ")
     
     
     elif sel == 3:
@@ -55,23 +57,29 @@ while not stop:
 
     elif sel == 4:
         f6 = input("funcionalidade 4, você tem algum tipo de Daltonismo? (S/N): ")
+        while((f6.upper() != "S") and (f6.upper() != "N")):
+            f6 = input("Erro, digite S para sim ou N para não: ")
 
         if f6.upper() == "S":
-            d = int(input("Digite 1 para Protanopia, 2 para  Deuteranopia, 3 para Tritanopia."))
+            d = int(input("Digite 1 para Protanopia, 2 para  Deuteranopia, 3 para Tritanopia: "))
+            while((d < 1) or (d > 3)):
+                print("Erro! Por favor digite um numero correspondente ao seu tipo de daltonismo.")
+                d = int(input("Digite 1 para Protanopia, 2 para  Deuteranopia, 3 para Tritanopia."))
+                
             if d == 1:
                 Cor_principal = "verde-oliva escuro "
                 Cor_Secundarias = "amarelo vibrante"
 
-                print("Cores atualizadas para Protanopia.\n Cor primaria: #58550B \n Cor secundaria: #EACA00")
+                print("Cores atualizadas para Protanopia.\n Cor primaria: verde-oliva escuro #58550B \n Cor secundaria: amarelo vibrante #EACA00")
             elif d == 2:
                 Cor_principal = "amarelo-ouro"
                 Cor_Secundarias = "amarelo escuro"
-                print("Cores atualizadas para Deuteranopia. \n Cor primaria: #AF9620 \n Cor secundaria: #CAB200")
+                print("Cores atualizadas para Deuteranopia. \n Cor primaria: amarelo-ouro #AF9620 \n Cor secundaria: amarelo escuro #CAB200")
             elif d == 3:
                 Cor_principal = "rosa brilhante"
                 Cor_Secundarias = "ciano brilhante"
-                print("Core atualizadas para Tritaopia. \n Cor primaria: #FF005A \n Cor secundaria: #00EAFF")
-        
+                print("Core atualizadas para Tritaopia. \n Cor primaria: rosa brilhante #FF005A \n Cor secundaria: ciano brilhante #00EAFF")
+       
 
 
         
