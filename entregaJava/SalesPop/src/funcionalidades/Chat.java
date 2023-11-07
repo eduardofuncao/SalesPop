@@ -3,18 +3,18 @@ package funcionalidades;
 import java.sql.Date;
 
 public class Chat {
-	private String id;
-    private String modo;
-    private String disponibilidade;
-    private Date dataInicio;
-    private String[] historico;
-    private boolean ativo;
+	public String id;
+    public String modo;
+    public String disponibilidade;
+    public Date dataInicio;
+    public String historico;
+    public boolean ativo;
     
     public Chat() {
 	
     }
     
-    public Chat(String id, String modo, String disponibilidade, Date dataInicio, String[] historico, boolean ativo) {
+    public Chat(String id, String modo, String disponibilidade, Date dataInicio, String historico, boolean ativo) {
 		this.id = id;
 		this.modo = modo;
 		this.disponibilidade = disponibilidade;
@@ -26,15 +26,8 @@ public class Chat {
 
 
 	public void display() {
-        // Implementação do método
-    }
-
-    public void fluxobot() {
-        // Implementação do método
-    }
-
-    public void liveChat() {
-        // Implementação do método
+		// escreve historico do chat no console
+        System.out.printf(this.historico);
     }
 }
 

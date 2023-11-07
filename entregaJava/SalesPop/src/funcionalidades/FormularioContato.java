@@ -1,8 +1,8 @@
 package funcionalidades;
 
 public class FormularioContato {
-	private String formID;
-    private String[] campos;
+	public String formID;
+    public String[] campos;
     
     public FormularioContato() {
 	
@@ -12,14 +12,12 @@ public class FormularioContato {
 		this.formID = formID;
 		this.campos = campos;
 	}
-
-
-
-	public void recebeInfo() {
-        // Implementação do método
+    
+    public void exibeCampos() {
+    	// exibe todos os campos do formulário
+    	for(int i =0; i<campos.length; i++) {
+    		System.out.println("Campo " + (i+1) + " do formulário");
+    	}
     }
 
-    public void submit() {
-        // Implementação do método
-    }
 }

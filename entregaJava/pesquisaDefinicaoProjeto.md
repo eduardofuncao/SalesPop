@@ -49,6 +49,17 @@ Baseado nisso, as cores e disposição do texto e elementos da tela serão modif
 
 As **funcionalidades principais** que serão implementadas são:
 1. Modificação do modal de aceite de cookies para coletar informações das necessidades de acessibilidade do usuário, modificando a disposição e estilo do site a partir disso;
-2. Criação de diferentes perfis de acessibilidade para modificações dos site (inicialmente, somente serão implementados perfis para usuários daltônicos). Para o daltonismo por exemplo, a paleta de cores do site será modificada dependendo se o usuário é daltônico ou não e do tipo de daltonismo;
+2. Criação de diferentes perfis de acessibilidade para modificações dos site (inicialmente, somente serão implementados perfis para usuários daltônicos). Para o daltonismo por exemplo, a paleta de cores do site será modificada dependendo se o usuário é daltônico ou não;
 3. Boa estruturação do site, garantindo que ele possa ser lido por visitantes utilizando leitores de tela e outras ferramentas próprias de acessibilidade (fucnionalidade skip to content, organização dos níveis de headings, etc);
 4. Armazenamento de informações do usuário em formulário de contato, incluindo dados relacionados à acessibilidade, garantindo que o atendente salesforce possa oferecer uma experiência mais personalizada para seu cliente.
+5. Chat para contato com o atendente da Salesforce ou interação com o chatbot.
+6. Campo de pesquisa para buscas em todo o site.
+
+## Como usar
+Essa é uma versão de testes das principais funcionalidades para a aplicação desenvolvida para o site da salesforce.
+Para sua utilização, executar o programa methodsTest.java em "\entregaJava\SalesPop\src\funcionalidades\methodsTest.java". Ele será constrolado exclusivamente pelo console e o usuário deve seguir as instruções para realizar os testes.
+No código são geradas e populadas instâncias de cada uma das classes, e no programa principal methodsTest seus métodos são testados de acordo com o input do usuário. As funcionalidades implementadas explicitamente dentro do código nessa versão são: 
+- Conscentimento ou não dos cookies do site `usuario.cookie.recebeInfo() e usuario.cookie.show();`;
+- Formulário de acessibilidade em sequência ao aceite dos cookies `usuario.preferenciasAcessibilidade.recebeInfo() e usuario.preferenciasAcessibilidade.updatePagina()`;
+- Campo de pesquisa `usuario.fazPesquisa()`;
+- Integração do live chat para conversa com atendente `usuario.enviaMensagem(), atendente.enviaMensagem() e chat.display()`

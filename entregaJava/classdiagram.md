@@ -1,5 +1,4 @@
 ```mermaid
-
 classDiagram
     direction TB
     class Usuario {
@@ -10,10 +9,11 @@ classDiagram
         -cargo: String
         -empresa: String
         ------------------------------------------------
-        +atualizaPerfil()
-        +removePerfil()
+        +show()
+        +preencheFormulario()
         +fazPesquisa()
         +enviaMensagem()
+
 
     }
 
@@ -29,8 +29,7 @@ classDiagram
     class FormularioContato {
         -formID: String
         -campos: String[]
-        +recebeInfo()
-        +submit()
+        +exibeCampos()
     }
 
     class PreferenciasAcessibilidade {
@@ -38,9 +37,8 @@ classDiagram
         -tipoDaltonismo: Boolean
         -altoContraste: Boolean
         -linksSublinhados: Boolean
-        -modoDislexia: Boolean
         +recebeInfo()
-        +submit()
+        +updatePagina()
     }
 
     class Chat {
@@ -51,8 +49,6 @@ classDiagram
         -historico: String[]
         -ativo: Boolean
         +display()
-        +fluxobot()
-        +liveChat()
     }
 
     class Pagina {
@@ -63,11 +59,6 @@ classDiagram
         -estilo: 
         -preferencias: Boolean[]
         -linguagem: String
-        +display()
-        +modificaPaleta()
-        +aumentaEspacamento()
-        +linksSublinhados()
-        +guardaHistorico()
     }
 
     class Cookies {
@@ -79,7 +70,7 @@ classDiagram
         -estatistica
         -marketing
         +recebeInfo()
-        +submit()
+        +show()
         ---------------------------------
     }
 
@@ -95,5 +86,4 @@ classDiagram
 
     Cookies -- Pagina
     PreferenciasAcessibilidade -- Pagina
-
 ```
