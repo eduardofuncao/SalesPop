@@ -22,7 +22,6 @@
 <createdBy>eduar</createdBy>
 <createdTime>2023-11-21 02:36:41 UTC</createdTime>
 <ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -53,7 +52,6 @@
 <createdBy>eduar</createdBy>
 <createdTime>2023-11-21 02:36:41 UTC</createdTime>
 <ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
