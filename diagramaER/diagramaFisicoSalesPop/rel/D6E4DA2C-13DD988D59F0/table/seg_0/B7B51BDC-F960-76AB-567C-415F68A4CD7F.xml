@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7B51BDC-F960-76AB-567C-415F68A4CD7F" name="USUARIO">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:31:15 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUsuario" id="740668FC-E435-3719-A074-FFF651EE6C99">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="95063576-E350-9BE3-D105-2940DFC72E27">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5E901487-D2E7-806B-1556-C3664F02D608">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="2F925C77-7140-1427-B15A-EBC92748506E">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="0AB0DED1-F4D0-DEB7-554F-075FE09BB407">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="D2F84D0D-6D56-CBEE-B445-58174502CB06">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B99024DB-B663-5AC3-EB92-42771C55FC40" name="USUARIO_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:19 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740668FC-E435-3719-A074-FFF651EE6C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

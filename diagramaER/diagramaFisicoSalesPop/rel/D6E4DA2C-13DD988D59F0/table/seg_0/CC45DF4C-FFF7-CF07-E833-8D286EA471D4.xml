@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC45DF4C-FFF7-CF07-E833-8D286EA471D4" name="USUARIO_ATENDENTE">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:32:30 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_idUsuario" id="4453E5DC-4986-405A-89B4-CC72B1B20273">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:37 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20AAB86-5EAE-8484-86A9-8265024621C2" referredColumn="740668FC-E435-3719-A074-FFF651EE6C99"/>
+</associations>
+</Column>
+<Column name="ATENDENTE_idAtendente" id="E3B8F233-6C55-96EB-5B36-ED0E9080DD62">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:41:11 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EF15201-CF64-A3D8-2063-BF5BF84917B9" referredColumn="9178DCD1-D33B-1A3C-5406-D34E19FB46B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="634A394D-A6F6-A264-E541-56614ACB36C1" name="USUARIO_ATENDENTE_USUARIO_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:40:37 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4453E5DC-4986-405A-89B4-CC72B1B20273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AADE6D8-E338-E46F-4D6F-2115BDBE1F97" name="USUARIO_ATENDENTE_ATENDENTE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:41:11 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3B8F233-6C55-96EB-5B36-ED0E9080DD62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCD9D2B4-3008-302E-9ED1-4979210D4968" containerWithKeyObject="23D4A805-0CCA-7643-6912-1A079515AAAF" localFKIndex="B60C68AA-6D45-5F1E-8D76-221E46575755" name="PAGINA_PREFERENCIAS_ACESSIBILIDADE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:59:39 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<referredTableLongName>PREFERENCIAS_ACESSIBILIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>437BBDCD-1119-5DFD-D979-95D3EFDEB2C5</referredTableID>
+<keyObject>8E2C2421-998F-FB2D-1AE0-3FE6B2A32D24</keyObject>
+<referredKeyID>8E2C2421-998F-FB2D-1AE0-3FE6B2A32D24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPreferencias</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

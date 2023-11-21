@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="001939A7-C40D-8FBB-4324-6307C9EE5E4F" containerWithKeyObject="E6B34866-0EBC-4139-6E45-0B46764C2719" localFKIndex="78DF786B-8B61-5CAE-4476-A92555930D44" name="COOKIE_USUARIO_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:00:32 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7B51BDC-F960-76AB-567C-415F68A4CD7F</referredTableID>
+<keyObject>B99024DB-B663-5AC3-EB92-42771C55FC40</keyObject>
+<referredKeyID>B99024DB-B663-5AC3-EB92-42771C55FC40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idUsuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

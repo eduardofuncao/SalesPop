@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D34D23E3-F8F2-A3E5-4CD4-E3FBA443E865" name="COOKIE_PAGINA">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:33:39 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COOKIE_idCookie" id="5E379737-CA38-B42E-8BF3-04F1B91A586E">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:59:07 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DAC6D0E-7A93-442F-567C-C4D489EA4356" referredColumn="D41B8308-7178-98C1-C3EF-C1C9A3948AF7"/>
+</associations>
+</Column>
+<Column name="PAGINA_urlPagina" id="B2F160CA-17C4-8407-1DCF-FA71092279BF">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:59:13 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="041835DF-2DA7-1AE0-C782-C9DA358A143C" referredColumn="CC5FE78C-BF05-060D-4F21-14CE95B8E4E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="695AF1FD-E031-A2A3-F2FA-6E36C08228E1" name="COOKIE_PAGINA_COOKIE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:59:07 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E379737-CA38-B42E-8BF3-04F1B91A586E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8FBB5B5-4611-5C9C-8515-B5EC1DE67DDC" name="COOKIE_PAGINA_PAGINA_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:59:13 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2F160CA-17C4-8407-1DCF-FA71092279BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

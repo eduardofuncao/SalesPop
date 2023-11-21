@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="437BBDCD-1119-5DFD-D979-95D3EFDEB2C5" name="PREFERENCIAS_ACESSIBILIDADE">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:32:03 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPreferencias" id="CAC27905-0A44-7A13-9479-974749238FC8">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:54:43 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoDaltonismo" id="FF18043A-6B96-7D24-D641-282BB5FF9C07">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:54:43 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altoContraste" id="03D260FD-09FA-2D20-DB93-9B9AB3A6B725">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:54:43 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linksSublinhados" id="30027D54-8B44-DC43-A936-22A7EA3104D3">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:54:43 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_idUsuario" id="E7C112BE-6C87-0A06-DA25-95DA807CF924">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:00:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93085D5E-B2FE-FCD5-0D11-2837A5B08AEA" referredColumn="740668FC-E435-3719-A074-FFF651EE6C99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E2C2421-998F-FB2D-1AE0-3FE6B2A32D24" name="PREFERENCIAS_ACESSIBILIDADE_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:56:44 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC27905-0A44-7A13-9479-974749238FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0F4B6C5-571A-2B85-DDF2-B4071E7175FA" name="PREFERENCIAS_ACESSIBILIDADE_USUARIO_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:00:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C112BE-6C87-0A06-DA25-95DA807CF924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
