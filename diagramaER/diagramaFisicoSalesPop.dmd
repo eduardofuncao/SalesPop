@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagramaFisicoSalesPop" id="F0E404FC-91BA-48B2-AE71-93E7DAE98D7C" version="3.5">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:29:29 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F0E404FC-91BA-48B2-AE71-93E7DAE98D7C</designId>
+</OSDM_Design>

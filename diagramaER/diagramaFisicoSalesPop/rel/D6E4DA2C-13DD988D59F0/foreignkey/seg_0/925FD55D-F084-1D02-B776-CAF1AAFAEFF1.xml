@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="925FD55D-F084-1D02-B776-CAF1AAFAEFF1" containerWithKeyObject="721B364F-C34C-8472-227C-FCA8F7A53FF5" localFKIndex="E9364F5B-811A-787C-1CBA-BA91511642B2" name="COOKIE_MARKETING_COOKIE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:58:58 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<referredTableLongName>COOKIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6B34866-0EBC-4139-6E45-0B46764C2719</referredTableID>
+<keyObject>B5519387-1EB9-1825-2B44-9CDF0F91D191</keyObject>
+<referredKeyID>B5519387-1EB9-1825-2B44-9CDF0F91D191</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idCookie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

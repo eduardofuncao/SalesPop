@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96194035-267F-933D-E5E8-D62DDD9FE43A" name="CHAT">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:31:25 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idChat" id="B5445EB0-4407-0AA7-1E06-C5F4D1E01A0A">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:47:16 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modo" id="6062808A-4BEF-F50A-840A-CBC3863080C9">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:47:16 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disponibilidade" id="B80EE597-AD53-713C-3E83-3362EE3D5B4F">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:47:16 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataInicio" id="7FBDD163-A9C2-5894-AA93-5BEB5745E97F">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:48:54 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_idUsuario" id="486659A4-640D-277C-69E8-1F9CF764AF7C">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:42:13 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFBC241-4C2D-FCB4-A1D9-A20CECEC5837" referredColumn="740668FC-E435-3719-A074-FFF651EE6C99"/>
+</associations>
+</Column>
+<Column name="ATENDENTE_idAtendente" id="EA9FBAB4-B6C2-8B49-AE95-3A5A8D8172F8">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:46:51 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04CD6153-238C-3F83-C8F5-39D5A46738A9" referredColumn="9178DCD1-D33B-1A3C-5406-D34E19FB46B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1526B7BE-9612-BFC4-9754-95CFE4E444B6" name="CHAT_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:48:54 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5445EB0-4407-0AA7-1E06-C5F4D1E01A0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D98795D8-AF53-873B-E02B-1A66F1CFEC23" name="CHAT_USUARIO_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:42:13 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="486659A4-640D-277C-69E8-1F9CF764AF7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D480113-D19B-06FF-637A-6CFD26174D5C" name="CHAT_ATENDENTE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:46:51 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9FBAB4-B6C2-8B49-AE95-3A5A8D8172F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

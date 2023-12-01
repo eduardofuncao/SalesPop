@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="331D1B01-6CD4-297D-D149-38D2C17A02E2" name="COOKIE_ESTATISTICA">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:33:11 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tempoNavegacao" id="5F15483A-2A24-96C1-87D9-BE590E044CF5">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:53:30 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COOKIE_idCookie" id="4B986246-4DCC-B9E1-0430-3C477E80AD02">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:58:46 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="723237E7-034D-BEA7-3544-DE7BA3EA0607" referredColumn="D41B8308-7178-98C1-C3EF-C1C9A3948AF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57E4E838-8C6E-ED3A-0D9B-E7FDC7AF0D8B" name="COOKIE_ESTATISTICA_COOKIE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:58:46 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B986246-4DCC-B9E1-0430-3C477E80AD02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

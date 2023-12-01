@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="556B79C3-1DE1-65C0-9952-218284AE887D" name="COOKIE_LOCALIZACAO">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:32:40 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idioma" id="A4905DA5-81F1-1511-84DC-BBB4DB17F332">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:53:11 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="FC9753C4-A744-7371-B8B0-80CE869826D4">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:53:41 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COOKIE_idCookie" id="4F0F81C9-4582-D955-CF63-85DF5E3FD74F">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:58:39 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDC7B2B5-7560-E1E2-7AF5-1827B5219518" referredColumn="D41B8308-7178-98C1-C3EF-C1C9A3948AF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F24A18E8-79FC-7204-41DA-A6C1A5BF1BD7" name="COOKIE_LOCALIZACAO_COOKIE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:58:39 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F0F81C9-4582-D955-CF63-85DF5E3FD74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

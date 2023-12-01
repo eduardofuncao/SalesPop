@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04CD6153-238C-3F83-C8F5-39D5A46738A9" containerWithKeyObject="96194035-267F-933D-E5E8-D62DDD9FE43A" localFKIndex="9D480113-D19B-06FF-637A-6CFD26174D5C" name="CHAT_ATENDENTE_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:46:51 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<referredTableLongName>ATENDENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4CC0C3C-C862-2009-CE64-8C63A08B3EC4</referredTableID>
+<keyObject>07EC1543-D6D4-8745-0726-125C8A171CB8</keyObject>
+<referredKeyID>07EC1543-D6D4-8745-0726-125C8A171CB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAtendente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

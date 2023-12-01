@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6B34866-0EBC-4139-6E45-0B46764C2719" name="COOKIE">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:31:50 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCookie" id="D41B8308-7178-98C1-C3EF-C1C9A3948AF7">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:51:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="B52D7F00-7DE3-4388-7299-BADEF1EBBDB9">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:51:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dominio" id="80436462-FA20-FA44-7381-C67478B10E06">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:51:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataExpira" id="22A7FEE3-CFF9-6DD0-FAE6-CC90DFF20CC1">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:51:27 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aceito" id="C808137E-30CF-766C-CAFA-5B56D6579624">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:57:12 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_idUsuario" id="C0CA1F0F-E2C0-B997-6272-DCA064819042">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:00:32 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="001939A7-C40D-8FBB-4324-6307C9EE5E4F" referredColumn="740668FC-E435-3719-A074-FFF651EE6C99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5519387-1EB9-1825-2B44-9CDF0F91D191" name="COOKIE_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 02:55:58 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D41B8308-7178-98C1-C3EF-C1C9A3948AF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78DF786B-8B61-5CAE-4476-A92555930D44" name="COOKIE_USUARIO_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-11-21 03:00:32 UTC</createdTime>
+<ownerDesignName>diagramaFisicoSalesPop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CA1F0F-E2C0-B997-6272-DCA064819042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
