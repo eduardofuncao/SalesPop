@@ -1,32 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="form.css">
-    <link rel="icon" href="salesforce_logo_icon_170764.png">
+    <link rel="stylesheet" href="../entregaWebDev1/css/form.css">
+    <link rel="icon" href="../entregaWebDev1/img/sales icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Challenge #1</title>
 </head>
 <body>
-    <a href="index.html"><img id="img" src="salesforce-256.png" alt="Logo SalesForce"></a>
-    
-    <header>
+    <div class="container">
+        <a href="index.html"><img id="img" src="../entregaWebDev1/img/salesforce-256.png" alt="Logo SalesForce"></a>
+        <div class="flex-item">
+            <header>
+                
+                <p><a href="form.html">Formulário para contato</a></p>
+                <p><a href="suporte.html">Suporte</a></p>
+                <p><a href="produtos.html">Produtos-Customer 360</a></p>
+                <p><a href="recurso.html">Recursos</a></p>
+                <p><a href="nomes.html">Nomes e RM's da equipe</a></p>
+                <p><a href="organograma.html">Organograma das páginas</a></p>
+                <div class="box-busca">
+                    <div class="search-box">
+                        
+                        <form method="post" action="#">
+                            <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Busca">
+                            <img class="imgbus" src="../entregaWebDev1/img/f9bb81e576c1a361c61a8c08945b2c48---cone-de-pesquisa-by-vexels.png" alt="icone de busca">
+                            <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+                        
+                        </form>
+                        
+                    </div>
+                
+                </div>
+
+            </header>
+        </div>
+    </div>
         
-        <p><a href="form.html">Formulário para contato</a></p>
-        <p><a href="suporte.html">Suporte</a></p>
-        <p><a href="produtos.html">Produtos-Customer 360</a></p>
-        <p><a href="recurso.html">Recursos</a></p>
-        <p><a href="nomes.html">Nomes e RM's da equipe</a></p>
-        <p><a href="organograma.html">Organograma das páginas</a></p>
+    <div class="container">
+        <div class="flex-item02"> 
+    
+            <h2>Formulário</h2>
+            <p>Para um atendimento mais pessoal e exclusivo!</p>
+        <table>
+            <td>
+                <form action="">
+                    
+                        <label for="txtNome">Nome:</label>
+                            <input class="inputform" type="text" id="txtNome" name="txtNome" required>
+                            
+                            <br> <br>
+                    
+                        <label for="txtSobreNome">Sobrenome:</label>
+                            <input class="inputform" type="text" id="txtSobreNome" name="txtSobreNome" size="10" maxlength="18">
+                            
+                            <br> <br>
 
-    </header>
-    
-    
-    
-    <h2>Formulário</h2>
-
-    <p>Nesta página iremos implementar a funcionalidade de registro de usuários. De forma mais dinâmica e acessível, 
-        visando a resolução de problemas já vistos no formulário atual da SalesForce e melhorando a coleta de dados.</p>
-    
+                        <label for="txtCargo">Cargo:</label>
+                        <input class="inputform" type="text" id="txtCargo" name="txtCargo">
+                            
+                        <br> <br>
+                    
+                        <label for="txtEmail">e-mail corporativo:</label>
+                            <input class="inputform" type="email" id="txtEmail" name="txtEmail" required>
+                            <br> <br>
+                        
+                        <label for="telefone">Telefone</label>
+                        <input class="inputform" type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                            
+                            <br> <br>
+                        
+                        <label for="txtEmpre">Nome da sua empresa:</label>
+                            <input class="inputform" type="text" id="txtEmpre" name="txtEmpre" required>
+                            
+                            <br> <br>
+                        
+                        <label for="txtTam">Número de funcionários na empresa:</label>
+                            <input class="inputform" type="number" id="txtTam" nome="txtTam" required>
+                        
+                            <br> <br>
+                        
+                            <button class="button-18" role="button">Enviar</button>
+                </form>
+            </td>
+            <td>
+                <img class="imgform" src="../entregaWebDev1/img/Astro form.png" alt="mascotes SalesForce com um notebook">
+            </td>
+        </table>
+        </div>
+        
+        <div class="flex-item03">
+            <footer>
+                <p id="pe">&COPY; Artur Fiorindo | Eduardo Função | Jhoe Hashimoto</p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
+
+
+

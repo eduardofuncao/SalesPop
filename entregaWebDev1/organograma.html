@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="organograma.css">
-    <link rel="icon" href="salesforce_logo_icon_170764.png">
+    <link rel="stylesheet" href="../entregaWebDev1/css/organograma.css">
+    <link rel="icon" href="../entregaWebDev1/img/sales icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organograma Challenge #1</title>
 </head>
 <body>
-   <a href="index.html"><img id="img" src="salesforce-256.png" alt="Logo SalesForce"></a>
-    
-   <header>
-        
-        <p><a href="form.html">Formulário para contato</a></p>
-        <p><a href="suporte.html">Suporte</a></p>
-        <p><a href="produtos.html">Produtos-Customer 360</a></p>
-        <p><a href="recurso.html">Recursos</a></p>
-        <p><a href="nomes.html">Nomes e RM's da equipe</a></p>
-        <p><a href="organograma.html">Organograma das páginas</a></p>
-    </header>
+   
+    <div class="container">
+        <a href="index.html"><img id="img" src="../entregaWebDev1/img/salesforce-256.png" alt="Logo SalesForce"></a>
+        <div class="flex-item">
+            <header>
+                
+                <p><a href="form.html">Formulário para contato</a></p>
+                <p><a href="suporte.html">Suporte</a></p>
+                <p><a href="produtos.html">Produtos-Customer 360</a></p>
+                <p><a href="recurso.html">Recursos</a></p>
+                <p><a href="nomes.html">Nomes e RM's da equipe</a></p>
+                <p><a href="organograma.html">Organograma das páginas</a></p>
+                <div class="box-busca">
+                    <div class="search-box">
+                        
+                        <form method="post" action="#">
+                            <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Busca">
+                            <img class="imgbus" src="../entregaWebDev1/img/f9bb81e576c1a361c61a8c08945b2c48---cone-de-pesquisa-by-vexels.png" alt="icone de busca">
+                            <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+                        
+                        </form>
+                        
+                    </div>
+                
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flex-item02"> 
        
-        <table>
-            <td>
-            <img class="imagemOrg" src="Org.jpeg" alt="organograma">
-            </td>
-     <td>
-    <h2>Organograma</h2>
-    
-    
-    <h2>Mapa do site</h2>
-
-    <ul>
-        <h3>Serviços</h3>
-            <li><a href="index.html">Landing Page</a></li>
-            <li><a href="form.html">Formulário</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="suporte.html">Suporte</a></li>
-            <li><a href="recurso.html">Recursos</a></li>
-    </ul>
-    <ul>
-        <h3>Infomações</h3>
-        <li><a href="organograma.html">Organograma</a></li>
-        <li><a href="nomes.html">Nomes</a></li>
-    </ul>
-    </td>   
-        </table>
+            <table>
+                <tr>  
+                    <td>
+                        <h2>Organograma</h2>
+                    </td>
+                    <td>
+                        <img class="imagemOrg" src="../entregaWebDev1/img/Org.jpeg" alt="organograma">
+                    </td>
+                </tr>   
+                    <td>
+                        <h2>Mapa do site</h2>
+                    
+                    
+                        <ul>
+                            <h3>Serviços</h3>
+                                <li><a href="index.html">Landing Page</a></li>
+                                <li><a href="form.html">Formulário</a></li>
+                                <li><a href="produtos.html">Produtos</a></li>
+                                <li><a href="suporte.html">Suporte</a></li>
+                                <li><a href="recurso.html">Recursos</a></li>
+                        </ul>
+                        <ul>
+                            <h3>Infomações</h3>
+                            <li><a href="organograma.html">Organograma</a></li>
+                            <li><a href="nomes.html">Nomes</a></li>
+                        </ul>
+                    </td>
+            </table>
+        </div>
+        
+        <img class="imgono" src="../entregaWebDev1/img/Astro orno.png" alt="mascote Astro">
+        <div class="flex-item03">
+            <footer>
+                <p id="pe">&COPY; Artur Fiorindo | Eduardo Função | Jhoe Hashimoto</p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
