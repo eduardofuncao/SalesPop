@@ -126,6 +126,20 @@ footer{
     
    
 }
+.flex-item02{
+    padding: 30px;
+    width: 700px;
+    margin-top: -20px;
+}
+.imgrec_eis{
+    width: 40vw;
+    border-radius: 20px;
+    margin-left: 55vw;
+    margin-top: -50vh;
+}
+
+
+
 /* Botão de pesquisa */
 .box-busca{ 
 
