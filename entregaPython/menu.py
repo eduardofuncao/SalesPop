@@ -1,3 +1,18 @@
+'''
+    @Author: Artur, Eduardo Função e Jhoe
+    @Date: 10/12/2023
+    @Credit: ...
+    @Links: ...
+
+Menu de funcionalidades para o site da SalesForce
+Funcionalidades implementadas:
+- Popup de aceite para cookies
+- Formulário 
+- Paletas de Cores adaptativas.
+- Formulário com tipos de Daltonismo e suas respectivas paletas de cor.
+-Informações do formúlario
+'''
+
 Cor_principal = "Azul claro"
 Cor_Secundarias = "Azul escuro"
 Acessibilidade = None
@@ -8,6 +23,7 @@ nomes = []
 sobrenomes = []
 emails = []
 qntd_formulario = 0
+
 
 stop = False
 while not stop:
