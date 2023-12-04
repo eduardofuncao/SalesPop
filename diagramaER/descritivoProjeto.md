@@ -17,3 +17,7 @@ Em relação aos dados coletados pela solução, o site irá armazenar algumas i
 
 # DESCREVER FUNCIONAMENTO DO CHAT E DO RELACIONAMENTO COM ATENDENTE
 Removi relação atendente formuláro de contato
+
+dados e atributos necessários para persistência
+mencionar regras de negocio apuradas e relacionadas as entidades
+finalizar dicionario
