@@ -50,29 +50,33 @@ public class cadastro {
 			}
 			
 			else if(option == 2) {
-				String detailsChoice;
-				String idChoice;
-				int indexChoice = -1;
-				for(Usuario user : users) {
-					System.out.printf("ID: " + user.getId());
-					System.out.printf(" - Nome: " +  user.getNome() + "\n");
+				if(users.isEmpty()) {
+					System.out.println("Não há usuários cadastrados");
 				}
-				System.out.printf("Gostaria de obter informções detalhadas de algum desses usuários? [S ou N]");
-				detailsChoice = read.next();
-				if(detailsChoice.toUpperCase().equals("S")) {
-					System.out.printf("De qual usuário? [escolha pelo ID]");	
-					idChoice = read.next();
-					for(Usuario user: users) {
-						if(user.getId().equals(idChoice)) {
-							indexChoice = users.indexOf(user);
-						}
+				else {
+					String detailsChoice;
+					String idChoice;
+					int indexChoice = -1;
+					for(Usuario user : users) {
+						System.out.printf("ID: " + user.getId());
+						System.out.printf(" - Nome: " +  user.getNome() + "\n");
 					}
-					if(indexChoice != -1)
-						users.get(indexChoice).show();
-					else
-						System.out.printf("Usuário não encontrado");
+					System.out.printf("Gostaria de obter informções detalhadas de algum desses usuários? [S ou N]");
+					detailsChoice = read.next();
+					if(detailsChoice.toUpperCase().equals("S")) {
+						System.out.printf("De qual usuário? [escolha pelo ID]");	
+						idChoice = read.next();
+						for(Usuario user: users) {
+							if(user.getId().equals(idChoice)) {
+								indexChoice = users.indexOf(user);
+							}
+						}
+						if(indexChoice != -1)
+							users.get(indexChoice).show();
+						else
+							System.out.printf("Usuário não encontrado");
+					}
 				}
-			
 			}
 			else if(option == 3) {
 				String idRemove;
